@@ -1,20 +1,25 @@
-# Image-Classification-Using-Transfer-Learning-and-a-Built-in-Dataset
+## Image-Classification-Using-Transfer-Learning-and-a-Built-in-Dataset
+
+
+
+
 
 ## Explanation of the Code
 
-### Importing Libraries: We import TensorFlow, Keras modules, and Matplotlib for plotting.
 
-### Loading CIFAR-10 Dataset: CIFAR-10 is a dataset of 60,000 32x32 color images in 10 classes. We load the dataset and normalize the images.
+- Importing Libraries: We import TensorFlow, Keras modules, and Matplotlib for plotting.
 
-### Pre-trained Model: We use MobileNetV2 as our transfer learning model, excluding the top layers to customize it for our task.
+- Loading CIFAR-10 Dataset: CIFAR-10 is a dataset of 60,000 32x32 color images in 10 classes. We load the dataset and normalize the images.
 
-### Building the Model: We add a global average pooling layer and a couple of dense layers to create our custom classifier.
+- Pre-trained Model: We use MobileNetV2 as our transfer learning model, excluding the top layers to customize it for our task.
 
-### Training the Model: The model is trained using the Adam optimizer, and we report the training and validation loss and accuracy.
+- Building the Model: We add a global average pooling layer and a couple of dense layers to create our custom classifier.
 
-### Evaluation: After training, we evaluate the model's performance on the test set.
+- Training the Model: The model is trained using the Adam optimizer, and we report the training and validation loss and accuracy.
 
-### Visualization: Finally, we visualize the training and validation accuracy and loss over epochs.
+- Evaluation: After training, we evaluate the model's performance on the test set.
+
+- Visualization: Finally, we visualize the training and validation accuracy and loss over epochs.
 
 
 
